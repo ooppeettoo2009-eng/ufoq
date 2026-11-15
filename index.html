@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071321">
+  <meta name="description" content="أفق — مجلة تقنية وموسوعة معرفية تشرح التقنية وعلوم الحاسب بالعربية.">
+  <title>أفق — مساحة التقنية والمعرفة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="أفق، الصفحة الرئيسية">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M5 25.5 18.5 9l5 10 4-5 7.5 11.5H5Z"/><path d="M5 30h30"/></svg></span>
+        <span class="brand-copy"><strong>أفق</strong><small>مساحة التقنية والمعرفة</small></span>
+      </a>
+      <button class="icon-button menu-toggle" aria-label="فتح القائمة" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="التنقل الرئيسي">
+        <a class="nav-link active" href="#home">الرئيسية</a>
+        <a class="nav-link" href="#categories">التصنيفات</a>
+        <a class="nav-link" href="#latest">أحدث المقالات</a>
+        <a class="nav-link" href="#about">عن أفق</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" aria-label="تفعيل الوضع الفاتح" title="تبديل المظهر"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg></button>
+        <a class="button button-small button-outline" href="#latest">اكتشف المقالات <span aria-hidden="true">←</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse-dot"></span> معرفة تقنية بلغة واضحة</div>
+          <h1>افهم التقنية،<br><span>واكتشف ما وراء الأفق.</span></h1>
+          <p class="hero-lead">من أول سطر برمجي إلى أحدث تقنيات الذكاء الاصطناعي؛ نقرّب لك عالم التقنية خطوةً خطوة.</p>
+          <form class="search-form" role="search" id="search-form">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
+            <label class="sr-only" for="site-search">ابحث في أفق</label>
+            <input id="site-search" type="search" placeholder="ابحث عن موضوع، تقنية، أو مصطلح..." autocomplete="off">
+            <button type="submit">ابحث <span aria-hidden="true">←</span></button>
+          </form>
+          <p class="search-hint">جرّب: <button class="search-suggestion" data-query="الذكاء الاصطناعي">الذكاء الاصطناعي</button><span>·</span><button class="search-suggestion" data-query="المعالج">المعالج</button><span>·</span><button class="search-suggestion" data-query="الأمن السيبراني">الأمن السيبراني</button></p>
+        </div>
+        <div class="hero-art" aria-label="رسم تجريدي لشبكة تقنية">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="orbit orbit-c"></div>
+          <div class="core"><div class="core-inner"><svg viewBox="0 0 80 80" aria-hidden="true"><path d="M17 48 39 19l9 18 7-10 17 25H17Z"/><path d="M17 57h55"/></svg></div></div>
+          <span class="float-chip chip-ai"><span class="chip-icon">✳</span><span>ذكاء اصطناعي<small>مستقبل يتشكل</small></span></span>
+          <span class="float-chip chip-code"><span class="chip-icon">&lt;/&gt;</span><span>برمجة<small>أفكار تصبح واقعاً</small></span></span>
+          <span class="float-chip chip-data"><span class="chip-icon">⌘</span><span>علوم الحاسب<small>أساس كل شيء</small></span></span>
+          <span class="star star-one">✦</span><span class="star star-two">✧</span><span class="star star-three">·</span>
+        </div>
+        <div class="hero-bottom"><span>محتوى يفتح لك آفاقاً جديدة</span><span class="hero-line"></span><a href="#featured">ابدأ من هنا <span>↓</span></a></div>
+      </div>
+    </section>
+
+    <section class="section featured-section" id="featured">
+      <div class="container">
+        <div class="section-heading"><div><span class="section-kicker">اختيار أفق</span><h2>موضوع يستحق وقتك</h2></div><span class="heading-note">قراءة مختارة لهذا الأسبوع</span></div>
+        <article class="featured-card searchable" data-search="الذكاء الاصطناعي تعلم الآلة الشبكات العصبية كيف تتعلم الآلة؟">
+          <div class="featured-visual"><div class="visual-grid"></div><div class="neural neural-a"></div><div class="neural neural-b"></div><div class="neural neural-c"></div><span class="visual-label">AI / 01</span><div class="visual-orb"><span>AI</span></div><span class="visual-caption">من البيانات إلى القرار</span></div>
+          <div class="featured-content"><div class="article-meta"><span class="tag tag-cyan">الذكاء الاصطناعي</span><span>١٢ دقيقة قراءة</span><span class="meta-dot"></span><span>١٥ نوفمبر ٢٠٢٦</span></div><h3>كيف تتعلم الآلة؟ رحلة من البيانات إلى الذكاء</h3><p>وراء كل توصية ذكية وتعرّف دقيق على الصور، نموذج يتعلم من الأمثلة. نكشف الفكرة ببساطة ونفهم كيف تتحول البيانات إلى قرارات.</p><a class="text-link" href="#latest">اقرأ المقال <span aria-hidden="true">←</span></a></div>
+          <span class="featured-index">01 <span>/ 06</span></span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section categories-section" id="categories">
+      <div class="container">
+        <div class="section-heading"><div><span class="section-kicker">خريطة المعرفة</span><h2>استكشف عوالم التقنية</h2></div><p class="section-description">ستة مسارات، لكل منها باب إلى معرفة أعمق.</p></div>
+        <div class="category-grid">
+          <a class="category-card searchable" href="#latest" data-search="علوم الحاسب العتاد المعالج الذاكرة التخزين"><span class="category-icon icon-blue"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4M10 10h4v4h-4z"/></svg></span><span class="category-count">٠٨ مقالات</span><h3>علوم الحاسب والعتاد</h3><p>من المعالج والذاكرة إلى بنية الحاسوب.</p><span class="card-arrow">←</span></a>
+          <a class="category-card searchable" href="#latest" data-search="الذكاء الاصطناعي تعلم الآلة الشبكات العصبية"><span class="category-icon icon-violet"><svg viewBox="0 0 24 24"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1m-8.6 8.6-2.1 2.1"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span><span class="category-count">١٢ مقالات</span><h3>الذكاء الاصطناعي</h3><p>تعلم الآلة والشبكات العصبية وما بعدها.</p><span class="card-arrow">←</span></a>
+          <a class="category-card searchable" href="#latest" data-search="البرمجة تطوير الويب HTML CSS JavaScript"><span class="category-icon icon-green"><svg viewBox="0 0 24 24"><path d="m8 8-4 4 4 4m8-8 4 4-4 4m-3-11-2 14"/></svg></span><span class="category-count">١٥ مقالات</span><h3>البرمجة وتطوير الويب</h3><p>ابنِ للويب وتعلّم كيف تعمل البرمجيات.</p><span class="card-arrow">←</span></a>
+          <a class="category-card searchable" href="#latest" data-search="الشبكات الإنترنت IP الخوادم البروتوكولات"><span class="category-icon icon-orange"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18m0-18a14 14 0 0 0 0 18"/></svg></span><span class="category-count">٠٩ مقالات</span><h3>الشبكات والإنترنت</h3><p>كيف تتصل الأجهزة ويعمل الإنترنت؟</p><span class="card-arrow">←</span></a>
+          <a class="category-card searchable" href="#latest" data-search="الأمن السيبراني التشفير حماية البيانات"><span class="category-icon icon-pink"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 1 1 8 0v3m-4 5v2"/></svg></span><span class="category-count">١١ مقالات</span><h3>الأمن السيبراني</h3><p>حماية بياناتك وفهم أساليب التشفير.</p><span class="card-arrow">←</span></a>
+          <a class="category-card searchable" href="#latest" data-search="تقنيات المستقبل الروبوتات الحوسبة الكمومية الواقع الافتراضي"><span class="category-icon icon-cyan"><svg viewBox="0 0 24 24"><path d="M12 3v3m0 12v3M4.2 7.2l2.1 2.1m11.4 5.4 2.1 2.1m0-9.6-2.1 2.1m-11.4 5.4-2.1 2.1"/><circle cx="12" cy="12" r="5"/><path d="M9 12h6m-3-3v6"/></svg></span><span class="category-count">٠٧ مقالات</span><h3>تقنيات المستقبل</h3><p>روبوتات وحوسبة كمومية وأفكار جديدة.</p><span class="card-arrow">←</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section latest-section" id="latest">
+      <div class="container">
+        <div class="section-heading"><div><span class="section-kicker">من مكتبة أفق</span><h2>أحدث المقالات</h2></div><a class="text-link all-link" href="#latest">كل المقالات <span aria-hidden="true">←</span></a></div>
+        <div class="results-message" id="results-message" aria-live="polite"></div>
+        <div class="articles-grid" id="articles-grid">
+          <article class="article-card searchable" data-search="المعالج CPU كيف يعمل الحاسوب علوم الحاسب"><a href="#featured" class="article-image art-cpu" aria-label="اقرأ عن المعالج"><span class="art-label">HARDWARE <b>01</b></span><div class="chip-art"><span>CORE</span><small>PROCESSOR</small></div><span class="art-orbit"></span></a><div class="article-body"><div class="article-meta"><span>علوم الحاسب</span><span class="meta-dot"></span><span>٨ دقائق</span></div><h3><a href="#featured">ما الذي يحدث داخل المعالج عندما تشغّل برنامجاً؟</a></h3><p>جولة مبسطة بين الأنوية والتعليمات والنبضات التي تحرّك جهازك.</p><a class="article-more" href="#featured" aria-label="اقرأ المقال">←</a></div></article>
+          <article class="article-card searchable" data-search="الأمن السيبراني التشفير HTTPS كيف تحمي بياناتك"><a href="#featured" class="article-image art-security" aria-label="اقرأ عن التشفير"><span class="art-label">SECURITY <b>02</b></span><div class="shield-art"><svg viewBox="0 0 80 90"><path d="M40 5 70 17v23c0 21-13 36-30 45C23 76 10 61 10 40V17L40 5Z"/><path d="M31 41v-7a9 9 0 0 1 18 0v7m-21 0h24v19H28z"/></svg></div><span class="security-lines"></span></a><div class="article-body"><div class="article-meta"><span>الأمن السيبراني</span><span class="meta-dot"></span><span>٦ دقائق</span></div><h3><a href="#featured">التشفير: كيف تبقى رسائلك خاصة على الإنترنت؟</a></h3><p>من القفل الصغير في المتصفح إلى مفاتيح لا يراها أحد سواك.</p><a class="article-more" href="#featured" aria-label="اقرأ المقال">←</a></div></article>
+          <article class="article-card searchable" data-search="تطوير الويب HTML CSS JavaScript المتصفح"><a href="#featured" class="article-image art-web" aria-label="اقرأ عن الويب"><span class="art-label">WEB DEV <b>03</b></span><div class="browser-art"><span class="browser-dots">● ● ●</span><div class="code-lines"><i></i><i></i><i></i><i></i><i></i></div><span class="browser-cursor">_</span></div><span class="web-spark">✦</span></a><div class="article-body"><div class="article-meta"><span>البرمجة والويب</span><span class="meta-dot"></span><span>١٠ دقائق</span></div><h3><a href="#featured">كيف تتحول أسطر HTML إلى صفحة تراها أمامك؟</a></h3><p>تعرّف على الرحلة التي تبدأ بطلب من متصفحك وتنتهي بموقع تفاعلي.</p><a class="article-more" href="#featured" aria-label="اقرأ المقال">←</a></div></article>
+        </div>
+        <div class="empty-state" id="empty-state" hidden><span>⌕</span><h3>لم نعثر على نتائج</h3><p>جرّب كلمة أخرى مثل «الويب» أو «المعالج».</p><button class="button button-outline" id="clear-search">عرض كل المقالات</button></div>
+      </div>
+    </section>
+
+    <section class="newsletter-section" id="about"><div class="container newsletter-inner"><div class="newsletter-icon">✦</div><div><span class="section-kicker">ابقَ على اطّلاع</span><h2>آفاق جديدة، إلى بريدك.</h2><p>رسالة شهرية بأفضل ما نشرناه من شروحات وأفكار تقنية.</p></div><form class="newsletter-form" id="newsletter-form"><label class="sr-only" for="email">بريدك الإلكتروني</label><input id="email" type="email" placeholder="بريدك الإلكتروني" required><button type="submit">سجّلني <span>←</span></button><small id="newsletter-status" aria-live="polite">لا رسائل مزعجة. يمكنك إلغاء الاشتراك متى شئت.</small></form></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M5 25.5 18.5 9l5 10 4-5 7.5 11.5H5Z"/><path d="M5 30h30"/></svg></span><span class="brand-copy"><strong>أفق</strong><small>مساحة التقنية والمعرفة</small></span></a><p>نقرّب التقنية، ونوسّع الأفق.</p><span class="copyright">© ٢٠٢٦ أفق. محتوى عربي لكل فضولي.</span></div></footer>
+</body>
+</html>
